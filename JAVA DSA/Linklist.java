@@ -168,7 +168,7 @@ public class Linklist {
             slow = slow.next;
             fast= fast.next.next;
         }
-        return slow;
+        return slow.data;
     }
 
     public static void main(String[] args) {
@@ -195,7 +195,7 @@ public class Linklist {
 
        // System.out.println("Size of the list: " + l1.getSize()); // Output: 2
         //System.out.println(l1.findElement(0, 20, head));
-        l1.reverseLL();
+        //l1.reverseLL();
         l1.print();
     }
 }

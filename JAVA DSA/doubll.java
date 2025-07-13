@@ -9,9 +9,7 @@ public class doubll {
         this.data = data;
         this.next = null;
     }
-    public static  doubll(){
-
-    }
+   
 }
    
 

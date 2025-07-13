@@ -1,0 +1,1 @@
+{"name":"Local: queue","url":"f:\\JAVA\\JAVA DSA\\queue.java","tests":[{"id":1749132483436,"input":"5 3\n10 20 30 40 50","output":"30 20 10 40 50"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\JAVA\\JAVA DSA\\queue.java","group":"local","local":true}

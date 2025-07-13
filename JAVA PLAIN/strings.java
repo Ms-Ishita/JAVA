@@ -1,34 +1,34 @@
 public class strings {
-    public static String compressTheString(String str, StringBuilder str2){
-        int i = 0;
-        if(i == str.length()-1){
-            return str.charAt(i)+
-        }
-        // int count = 1;
+    // public static String compressTheString(String str, StringBuilder str2){
+    //     int i = 0;
+    //     if(i == str.length()-1){
+    //        // return str.charAt(i)+
+    //     }
+    //     // int count = 1;
         
-        // for(int i =1; i<str.length();i++){
-        //     if(str.charAt(i)==str.charAt(i-1)){
-        //         count++;
-        //     }
-        //     else{
-        //         str2.append(str.charAt(i-1));
-        //         str2.append(count);
-        //         count =1;
-        //     }
-        // }
+    //     // for(int i =1; i<str.length();i++){
+    //     //     if(str.charAt(i)==str.charAt(i-1)){
+    //     //         count++;
+    //     //     }
+    //     //     else{
+    //     //         str2.append(str.charAt(i-1));
+    //     //         str2.append(count);
+    //     //         count =1;
+    //     //     }
+    //     // }
 
-        // str2.append(str.charAt(str.length()-1));
-        // str2.append(count);
+    //     // str2.append(str.charAt(str.length()-1));
+    //     // str2.append(count);
 
-        // return str2.toString();
+    //     // return str2.toString();
 
 
-    }
+    // }
    public static void main(String[] args) {
 
     String str = new String("aaabbbcccc");
     StringBuilder str2 = new StringBuilder("");
-    System.out.println(compressTheString(str, str2));
+    ///System.out.println(compressTheString(str, str2));
 
 
     // String str = "hello world is the best";
