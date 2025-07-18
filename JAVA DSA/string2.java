@@ -1,4 +1,5 @@
 import java.util.*;
+<<<<<<< Updated upstream
 public class string2 {
     public static void sortString(String str){
         String[] word = str.split(" ");
@@ -44,4 +45,27 @@ public class string2 {
 //         System.out.println(str.substring(0,2));
 //     }
 // } 
+=======
+
+public class string2 {
+    // public String longestCommonPrefix(String[] strs) {
+    //     StringBuilder st = new StringBuilder("");
+    //    Arrays.sort(strs);
+    //    char[] first = strs[0].toCharArray();
+    //    char[] last = strs[strs.length-1].toCharArray();
+    //    for(int i =0; i<first.length; i++){
+    //     if(first!=last){
+    //         break;
+    //         st.a
+    //     }
+    //    }
+    // }
+    public static void main(String[] args) {
+        // String[] str = new String[]{"flower","flow","flight"};
+        String str="Ishita";
+        System.out.println(str.substring(2));
+        System.out.println(str.substring(0,2));
+    }
+} 
+>>>>>>> Stashed changes
 

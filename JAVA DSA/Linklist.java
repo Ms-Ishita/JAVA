@@ -14,11 +14,11 @@ public class Linklist {
     private static Node tail;
     private static int size;
 
-    public Linklist() {
-        this.head = null;
-        this.tail = null;
-        this.size = 0;
-    }
+    // public Linklist() {
+    //     this.head = null;
+    //     this.tail = null;
+    //     this.size = 0;
+    // }
 
     // Add node at the beginning
     public void addFirst(int data) {
