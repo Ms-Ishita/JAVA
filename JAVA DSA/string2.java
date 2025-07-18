@@ -4,6 +4,7 @@ import java.util.*;
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 public class string2 {
     public static void sortString(String str){
         String[] word = str.split(" ");
@@ -58,6 +59,8 @@ public class string2 {
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 
 public class string2 {
     // public String longestCommonPrefix(String[] strs) {
@@ -83,6 +86,9 @@ public class string2 {
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
