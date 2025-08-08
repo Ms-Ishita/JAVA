@@ -116,8 +116,7 @@ public class tree7 {
         if(!st.isEmpty()){
             Node temp = st.pop();
             reverse(st);
-            insertAtBottom(st, temp);
-        }
+            insertAtBottom(st, temp);}
 
     }
     public static Node compare(Stack<Node> st1, Stack<Node> st2){

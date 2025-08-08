@@ -109,11 +109,12 @@ public class tree2 {
     //     int right = diameter(root.right);
     //     return Math.max(dia,Math.max(left,right));
     // }
+
     public static int diameter(Node root){
         if(root == null){
             return 0;
         }
-        int diam =Height(root.left)+Height(root.right)+1;
+         int diam =Height(root.left)+Height(root.right)+1;
         int leftHeight = Height(root.left);
         int rightHeight = Height(root.right);
         return Math.max(leftHeight, rightHeight)+1;

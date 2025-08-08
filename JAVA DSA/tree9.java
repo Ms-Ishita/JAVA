@@ -33,7 +33,7 @@ public class tree9 {
         public static Node kthAcen(Node root,  int k){
             Stack<Node> st = new Stack<>();
             
-            fillStack(st, root, root)
+            fillStack(st, root, root);
             
             while(!st.isEmpty() && st.peek().data!=k){
                 st.pop();

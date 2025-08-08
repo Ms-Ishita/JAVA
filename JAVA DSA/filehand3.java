@@ -1,17 +1,22 @@
 import java.io.*;
 import java.util.Scanner;
-public class filehand3 {//to read data from a file
+public class filehand3 {
     public static void main(String[] args) {
         try{
-            File file = new File("exp.txt");
+            File file = new File("input.txt");
             Scanner sc = new Scanner(file);
+            int wordCount =0;
             while(sc.hasNextLine()){
-                String data = sc.nextLine();
-                System.out.println(data);
-
+                String line = sc.nextLine().trim();
+                if (!line.isEmpty()) {
+                    String[] words = line.split("\\s+");
+                    wordCount += words.length;
+                }
             }
-            sc.close();
-        }
+                System.out.println(wordCount);
+                sc.close();
+            } 
+        
         catch(FileNotFoundException e){
             System.out.println("An error occurred.");
             e.printStackTrace();
